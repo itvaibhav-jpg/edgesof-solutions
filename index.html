@@ -55,7 +55,11 @@
                 </div>
                 <div class="hero__image">
                     <div class="hero__image-wrapper">
-                        <img src="https://via.placeholder.com/500x600/1E3A8A/FFFFFF?text=Kumar+Vaibhav" alt="Kumar Vaibhav" class="hero__img">
+                        <div class="hero__placeholder">
+                            <i class="fas fa-user-tie"></i>
+                            <p>Kumar Vaibhav</p>
+                            <small>IIM Calcutta | Azure Certified</small>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,23 +69,54 @@
             <div class="stats__container container grid">
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
-                    <h3 class="stat-number" data-target="18">18+</h3>
+                    <h3 class="stat-number">18+</h3>
                     <p class="stat-label">Years Experience</p>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-dollar-sign"></i></div>
-                    <h3 class="stat-number" data-target="50">$50M+</h3>
+                    <h3 class="stat-number">$50M+</h3>
                     <p class="stat-label">Delivered</p>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-heart"></i></div>
-                    <h3 class="stat-number" data-target="98">98%</h3>
+                    <h3 class="stat-number">98%</h3>
                     <p class="stat-label">Client Retention</p>
                 </div>
                 <div class="stat-card">
                     <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
-                    <h3 class="stat-number" data-target="100">100+</h3>
+                    <h3 class="stat-number">100+</h3>
                     <p class="stat-label">Projects</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__image">
+                    <div class="about__image-wrapper">
+                        <div class="about__placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__content">
+                    <span class="section-subtitle">About Me</span>
+                    <h2 class="section-title">Meet Kumar Vaibhav</h2>
+                    <h3 class="about__subtitle">Not Your Typical Developer</h3>
+                    <p class="about__description">
+                        I'm not your typical developer. For years, I managed multi-million dollar programs for Fortune 500 companies—leading teams of 50+, delivering complex healthcare platforms, and orchestrating enterprise transformations across USA, Europe, and India.
+                    </p>
+                    <p class="about__description">
+                        But I realized something: Small and medium businesses deserve that same level of expertise, without the enterprise price tag.
+                    </p>
+                    <p class="about__description">
+                        So I founded EdgesOf Solutions with a simple mission: Bring enterprise-grade development to businesses of all sizes, powered by AI to deliver faster without compromising quality.
+                    </p>
+                    <div class="credentials">
+                        <div class="credential-badge"><i class="fas fa-graduation-cap"></i><span>IIM Calcutta</span></div>
+                        <div class="credential-badge"><i class="fab fa-microsoft"></i><span>Azure Certified</span></div>
+                        <div class="credential-badge"><i class="fas fa-certificate"></i><span>PMI Member</span></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -95,6 +130,12 @@
                         <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
                         <h3 class="service-title">AI-Powered Healthcare Solutions</h3>
                         <p class="service-description">Digital clinics, telemedicine platforms, healthcare dashboards. Built by someone who's delivered platforms serving 10,000+ patients.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Digital Clinic Platforms</li>
+                            <li><i class="fas fa-check"></i> Telemedicine Platforms</li>
+                            <li><i class="fas fa-check"></i> Healthcare Dashboards</li>
+                            <li><i class="fas fa-check"></i> HIPAA-Ready Architecture</li>
+                        </ul>
                         <div class="service-pricing">
                             <span class="price-india">₹5L-₹25L</span>
                             <span class="price-us">$15K-$60K</span>
@@ -105,6 +146,12 @@
                         <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
                         <h3 class="service-title">Business Web Applications</h3>
                         <p class="service-description">SaaS platforms, asset management, logistics solutions. Enterprise architecture from day one.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> SaaS Platforms</li>
+                            <li><i class="fas fa-check"></i> Asset Management Systems</li>
+                            <li><i class="fas fa-check"></i> Logistics Platforms</li>
+                            <li><i class="fas fa-check"></i> Custom Business Apps</li>
+                        </ul>
                         <div class="service-pricing">
                             <span class="price-india">₹6L-₹25L</span>
                             <span class="price-us">$15K-$60K</span>
@@ -115,11 +162,56 @@
                         <div class="service-icon"><i class="fas fa-robot"></i></div>
                         <h3 class="service-title">AI Integration Services</h3>
                         <p class="service-description">Chatbots, Azure OpenAI, workflow automation. Make your business smarter with AI.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> AI Chatbot Integration</li>
+                            <li><i class="fas fa-check"></i> Azure OpenAI Implementation</li>
+                            <li><i class="fas fa-check"></i> Workflow Automation</li>
+                            <li><i class="fas fa-check"></i> Custom AI Solutions</li>
+                        </ul>
                         <div class="service-pricing">
                             <span class="price-india">₹2L-₹12L</span>
                             <span class="price-us">$5K-$30K</span>
                         </div>
                         <a href="#contact" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <div class="projects__container container">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects__grid grid">
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-hospital"></i></div>
+                        <h3 class="project-title">AIMS2Health - Global Telemedicine</h3>
+                        <div class="project-stats">
+                            <span class="stat"><i class="fas fa-users"></i> 10,000+ patients</span>
+                            <span class="stat"><i class="fas fa-globe"></i> 15 countries</span>
+                            <span class="stat"><i class="fas fa-dollar-sign"></i> $5M ARR</span>
+                        </div>
+                        <p class="project-description">HIPAA-compliant telemedicine platform with AI-powered specialist routing.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-notes-medical"></i></div>
+                        <h3 class="project-title">MediScript - AI Digital Clinic</h3>
+                        <div class="project-stats">
+                            <span class="stat"><i class="fas fa-clock"></i> 70% faster</span>
+                            <span class="stat"><i class="fas fa-check"></i> Zero errors</span>
+                            <span class="stat"><i class="fas fa-calendar"></i> 1 month</span>
+                        </div>
+                        <p class="project-description">AI prescription generation with voice documentation and automated billing.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-box"></i></div>
+                        <h3 class="project-title">ReCore AMS - Asset Management</h3>
+                        <div class="project-stats">
+                            <span class="stat"><i class="fas fa-chart-line"></i> 85% reduction</span>
+                            <span class="stat"><i class="fas fa-money-bill"></i> $1.2M savings</span>
+                            <span class="stat"><i class="fas fa-box"></i> $50M+ assets</span>
+                        </div>
+                        <p class="project-description">QR-based asset tracking with mobile apps and real-time dashboards.</p>
                     </div>
                 </div>
             </div>
@@ -145,6 +237,13 @@
                                 <a href="tel:+919999456126">+91-9999456126</a>
                             </div>
                         </div>
+                        <div class="contact-detail">
+                            <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="detail-content">
+                                <h4>Location</h4>
+                                <p>New Delhi, India</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="contact__form-wrapper">
@@ -161,7 +260,7 @@
                             <label for="message">Message *</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        <button type="submit" class="btn btn-primary btn-large"><i class="fas fa-paper-plane"></i> Send Message</button>
                     </form>
                 </div>
             </div>
@@ -169,7 +268,31 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__container container">
+        <div class="footer__container container grid">
+            <div class="footer__column">
+                <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/d70640e3-33b8-4c1f-881e-e47849dc14a8/2025-12-10T17-33-34-675Z-8b1e7322-chat-image-1765388014656-0.jpg" alt="EdgesOf Solutions" style="height: 40px; margin-bottom: 1rem;">
+                <p class="footer__tagline">Enterprise Experience. AI Efficiency. Solo Dedication.</p>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__title">Quick Links</h4>
+                <ul class="footer__links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__title">Contact</h4>
+                <ul class="footer__contact">
+                    <li><i class="fas fa-envelope"></i><a href="mailto:vaibhav.iimcal@gmail.com">vaibhav.iimcal@gmail.com</a></li>
+                    <li><i class="fas fa-phone"></i><a href="tel:+919999456126">+91-9999456126</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i><span>New Delhi, India</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
             <p class="footer__copyright">© 2025 EdgesOf Solutions Pvt Ltd. All rights reserved.</p>
         </div>
     </footer>
